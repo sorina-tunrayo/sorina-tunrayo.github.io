@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Out of Halls</title>
+        <title>out of halls</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
@@ -10,9 +10,39 @@
         <link rel="stylesheet" type="text/css" href="./main.css">
     </head>
     <body>
-        <h1>Out of Halls</h1>
-        
-
+    <div class="jumbotron blog">
+        <h1 class="text-center">out of halls</h1> 
+    </div>
+    <nav class="navbar navbar-static-top navebar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--a class="navbar-brand" href="#">out of halls</a-->
+            </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">The movement</a></li>
+            <li class="dropdown open">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Places<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#Restaurants">Restaurants</a></li>
+                    <li><a href="#Cafes">Cafes</a></li>
+                    <li><a href="#Bars">Bars</a></li>
+                    <li><a href="#Unclassified">Unclassified</a></li>
+                </ul>
+            <li><a href="#">Where else</a></li>
+            </li>
+          </ul>
+        </div> 
+        </div>  
+    </nav>
+    <div class="container">   
         <h2>The movement</h2> 
         <p>As a new memeber of the Oxford (make this stand out) graduate community (make this standout), I have been overwhelmed by the huge number of activities that the colleges and the Universities provide. Out of Halls is supposed to represent the act of leaving</p>
 
@@ -23,52 +53,93 @@
 
         <p>Who said you can't have "town and gown"?</p>
 
-        <h2>Restaurants</h2>
+        <h2>Places</h2>
         #Add a way to check in via facebook: Check-in and squad up!
-        <ul>
-            <li class="product_item">Edamame: https://www.edamame.co.uk/
-            <p>Description: A family run restaurant serving authentic japanese: super cosy; pretty cheap. The thursday sushi nights are not to be missed.</p></li>
-            <li class="product_item">Turl street kitchen: http://www.turlstreetkitchen.co.uk/
-            <p>Description: A bit pricey but the menu is original enough that they can get away with it.</p></li>
-            <li class="product_item">SoJo: http://sojooxford.co.uk/
-            <p>Description: Litterally, the best dimsum in Oxford! </p></li>
-            <li class="product_item">Buongiorno e Buonasera: http://www.buongiornoebuonasera.com/
-            <p>Description: Authentic italian in every sense; equiped with an italian minimart.</p></li>
-        </ul> 
 
-        <h2>Cafes</h2>
-        <ul>
-            <li class="product_item">Truck store: https://truckmusicstore.co.uk/
-            <p>Description: Is it a record store</p></li>
-            <li class="product_item">Society cafe: http://www.society-cafe.com/
-            <p>Description:</p></li>
-            <li class="product_item">Missing Bean: http://www.themissingbean.co.uk/
-            <p>Description:</p></li>
-            <li class="product_item">The Barefoot 
-            <p>Description: Great brownies (so we've been told.)</p></li>
-        </ul>
-        <h2>Bars</h2>
-        <ul> 
-            <li class="product_item">The varsity club: http://tvcoxford.co.uk/
-            <p>Description:</p></li>
-            <li class="product_item">The Oxford Wine cafe: http://oxfordwinecafe.co.uk/
-            <p>Description: Expensive but there an extensive range of wines.</p></li>
-            <li class="product_item">The Bullingdon: http://www.thebullingdon.co.uk/
-            <p>Description:</p></li>
-        </ul>
+        <h3>Restaurants</h3>
+            <div class="row">
+                <div class="col-lg-6">
+                    Edamame: https://www.edamame.co.uk/
+                    <p>Description: A family run restaurant serving authentic japanese: super cosy; pretty cheap. The thursday sushi nights are not to be missed.</p>
+                </div>
+                <div class="col-lg-6">
+                    Turl street kitchen: http://www.turlstreetkitchen.co.uk/
+                    <p>Description: A bit pricey but the menu is original enough that they can get away with it.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    SoJo: http://sojooxford.co.uk/
+                    <p>Description: Litterally, the best dimsum in Oxford! </p>
+                </div>
+                <div class="col-lg-6">
+                    Buongiorno e Buonasera: http://www.buongiornoebuonasera.com/
+                    <p>Description: Authentic italian in every sense; equiped with an italian minimart.</p>
+                </div>
+            </div>
+        <h3>Cafes</h3>
+            <div class="row">
+                <div class="col-lg-6">
+                    Truck store: https://truckmusicstore.co.uk/
+                    <p>Description: Is it a record store</p>
+                </div>
+                <div class="col-lg-6">
+                    Society cafe: http://www.society-cafe.com/
+                    <p>Description:</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    Missing Bean: http://www.themissingbean.co.uk/
+                    <p>Description:</p>
+                </div>    
+                <div class="col-lg-6">
+                    The Barefoot 
+                    <p>Description: Great brownies (so we've been told.)</p>
+                </div>
+            </div>
 
-        <h2>Other places to hang out</h2>
-        <ul>
-            <li class="product_item">Pheonix picturehouse: https://www.picturehouses.com/cinema/Phoenix_Picturehouse
-            <p>Description: Indie and foreign cinema house showing mainstream films and lesser publicised but very inspiring foreign films and documentaries.</p></li>
-            <li class="product_item">Oxford covered market: http://oxford-coveredmarket.co.uk/
-            <p>Description:</p></li>
-            <li class="product_item">The Jam Factory: http://www.thejamfactoryoxford.com/
-            <p>Description: Located inside the UKs first Marmalade factory</p></li>
-            <li class="product_item">The Oxford Foundry: http://www.sbs.ox.ac.uk/school/about-sa%C3%AFd-business-school/oxford-foundry
-            <p>Description: Co-working space, welcoming students from acorss the University who interested in exploring the entrepreneurial ecosystem.</p></li>
-        </ul>    
-        <h2>Where else</h2>
+        <h3>Bars</h3>
+            <div class="row">
+                <div class="col-lg-6">
+                   The varsity club: http://tvcoxford.co.uk/
+                    <p>Description:</p>
+                </div>    
+                <div class="col-lg-6">
+                    The Oxford Wine cafe: http://oxfordwinecafe.co.uk/
+                    <p>Description: Expensive but there an extensive range of wines.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                   The Bullingdon: http://www.thebullingdon.co.uk/
+                    <p>Description:</p>
+                </div>    
+            </div>
+
+        <h3>Unclassified</h3>
+            <div class="row">
+                <div class="col-lg-6">
+                   Pheonix picturehouse: https://www.picturehouses.com/cinema/Phoenix_Picturehouse
+                    <p>Description: Indie and foreign cinema house showing mainstream films and lesser publicised but very inspiring foreign films and documentaries.</p>
+                </div>    
+                <div class="col-lg-6">
+                    Oxford covered market: http://oxford-coveredmarket.co.uk/
+                    <p>Description:</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                   The Jam Factory: http://www.thejamfactoryoxford.com/
+                    <p>Description: Located inside the UKs first Marmalade factory</p></li>
+                </div>    
+                <div class="col-lg-6">
+                    The Oxford Foundry: http://www.sbs.ox.ac.uk/school/about-sa%C3%AFd-business-school/oxford-foundry
+                    <p>Description: Co-working space, welcoming students from acorss the University who interested in exploring the entrepreneurial ecosystem.</p>
+                </div>
+            </div>
+   
+        <h2 class="text-center">Where else</h2>
         <p>Anywhere we've missed?</p>
         <input id="input" type="text">
         <button id="button">Add</button>
@@ -79,5 +150,15 @@
             { var text = $("#input").val(); $("#list").append('<li>' + text + '</li>');
             });
         </script>
+        </div>
+        
+
+        <footer class="footer">
+            <div class="container">
+                <p class="text-muted text-right">Sorina and Tunrayo © 2016</p>
+            </div>
+        </footer>
+
+
     </body>
 </html>
