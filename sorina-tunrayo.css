@@ -45,10 +45,11 @@ background-color: #f9f9f9;
     text-align: center;
     background-color: #f9f9f9;
     border-top: 1px solid #e5e5e5;
-    position: absolute;
+    clear:both;
   bottom: 0;
   width: 100%;
   font-size: 12px;
+  margin: auto;
 
 }
 
