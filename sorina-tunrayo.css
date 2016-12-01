@@ -11,7 +11,7 @@ body {
     margin: 0px auto;
     text-align: left;
     width:90%;
-    margin: 0px 0px 0px 100px;
+    margin: 40px 0px 0px 100px;
 }
 
 ul {
@@ -26,10 +26,11 @@ ul  li {
     }
 
 .jumbotron {
-min-height: 200px;
+min-height: 150px;
 background-color: white;
 background-size: cover;
 background-attachment: fixed;
+height: 180px;
 }
 
 .jumbotron h1 {
@@ -38,7 +39,7 @@ background-attachment: fixed;
 }
 
 .sidebar-module {
-   position: fixed;
+   clear:both;
 }
 
 .nav{
