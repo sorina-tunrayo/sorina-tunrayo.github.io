@@ -4,12 +4,15 @@ from flask import request
 import requests
 app = Flask("MyApp")
 
-Jericho = ["Lady_Margaret_Hall", "Somerville", "St_Johns", "St_Annes"]
-Botley = [""]
-Broad_street = [""]
-Bod_colleges = [""]
-Cowley = ["Queens", "Teddy_Hall", "Univ"]
-Cornmarket = [""]
+Jericho = ["Lady_Margaret_Hall", "Somerville", "St_Johns", "St_Annes",/
+ "Green_Templeton", "St_Benets", "St_Antonys", "Keble", "St_Johns", "St_Hughs"]
+Botley = ["Ruskin", "Worcester", "Kellogg", "Regents_Park", "St_Cross", "Wolfson"]
+Broad_street = ["Balliol", "Trinity", "Wadham", "Mansfield", "Harris_Manchester",/
+"Linacre", "St_Catz"]
+Bod_colleges = ["Exeter", "Jesus", "Lincoln", "Brasenose", "Hertford", "New",/
+"All_Souls"]
+Cowley = ["Queens", "Teddy_Hall", "University", "Merton", "Magdalen", "St_Hildas"]
+Cornmarket = ["Oriel", "Corpus_Christi", "Christ_Church", "Pembroke", "Nuffield", "St_Peters"]
 
 
 @app.route("/")
