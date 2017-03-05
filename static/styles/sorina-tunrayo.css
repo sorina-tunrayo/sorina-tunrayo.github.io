@@ -1,0 +1,108 @@
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #555;
+    font-size: 18px;
+    line-height: 1.42857143;
+    height: 100%;
+}
+
+.container-main {
+    display: inline-block;
+    margin: 0px auto;
+    text-align: left;
+    width:90%;
+    margin: 40px 0px 0px 100px;
+}
+
+ul {
+        margin:0;
+        padding:0;
+        text-align: center;
+        list-style:none;
+    }
+
+ul  li {
+        padding: 2px 5px;
+    }
+
+.jumbotron {
+text-align: center;
+min-height: 150px;
+background-color: white;
+background-size: cover;
+background-attachment: fixed;
+height: 180px;
+}
+
+.jumbotron h1 {
+    color: black;
+    font-size: 100px;
+}
+
+.sidebar-module {
+   clear:both;
+}
+
+.nav{
+background-color: #f9f9f9;
+ }
+
+ .blog-footer {
+    padding-top: 20px;
+    margin-top: 20px;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e5e5e5;
+    clear:both;
+  bottom: 0;
+  width: 100%;
+  font-size: 12px;
+}
+
+.polaroid {
+  position: relative;
+  width: 50%;
+}
+
+.polaroid img {
+  border: 10px solid #fff;
+  border-bottom: 90px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+
+}
+
+.polaroid p {
+  position: absolute;
+  text-align: center;
+  width: 80%;
+  bottom: 0px;
+  font: 400 18px/1;
+  font-size: 15px;
+  color: black;
+
+}
+
+.fa-snapchat {
+    color:#888888;
+}
+
+.fa-facebook-square {
+    color:#888888;
+}
+
+.fa-instagram {
+    color:#888888;
+}
+
+.fa-twitter
+{
+    color:#888888;
+}
+
+.fa-pinterest
+{
+    color:#888888;
+}
