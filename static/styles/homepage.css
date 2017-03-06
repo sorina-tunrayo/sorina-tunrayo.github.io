@@ -9,16 +9,16 @@ body {
 
 .jumbotron {
 text-align: center;
-min-height: 150px;
+min-height: 100px;
 background-color: pink;
 background-size: cover;
 background-attachment: fixed;
-height: 180px;
+height: 100px;
 }
 
 .jumbotron h1 {
     color: white;
-    font-size: 150px;
+    font-size: 100px;
 }
 
  .footer {
@@ -51,7 +51,7 @@ height: 180px;
 }
 
 form {
-    width: 130px;
+    width: 100px;
     border-radius: 4px;
     font-size: 20px;
     background-color: pink;
