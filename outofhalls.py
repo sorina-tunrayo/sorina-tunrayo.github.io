@@ -49,10 +49,10 @@ def send_simple_message(var):
     return requests.post(
         "https://api.mailgun.net/v3/sandbox62c1649bfb464d9781537ad48f67a7dd.mailgun.org/messages",
         auth=("api", "key-b6e18fc0572d4d9c98c99abe2b4d2850"),
-        data={"from": "Excited User <mailgun@sandbox62c1649bfb464d9781537ad48f67a7dd.mailgun.org>",
+        data={"from": "Out of Halls <mailgun@sandbox62c1649bfb464d9781537ad48f67a7dd.mailgun.org>",
               "to": var,
               "subject": "Hello",
-              "text": "Thank you for your email! We have taken your response and will review it shortly! Check back to see if your idea makes it onto the website!"})
+              "text": "Thank you for your email! We have taken your response and will review it shortly. Check back to see if your idea makes it onto the website!"})
 
 @app.route("/signup", methods=['POST'])
 def sign_up():

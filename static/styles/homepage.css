@@ -1,0 +1,68 @@
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #555;
+    font-size: 18px;
+    line-height: 1.42857143;
+    height: 100%;
+    background-color: pink;
+}
+
+.jumbotron {
+text-align: center;
+min-height: 150px;
+background-color: pink;
+background-size: cover;
+background-attachment: fixed;
+height: 180px;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-size: 150px;
+}
+
+ .footer {
+    text-align: center;
+    clear:both;
+  width: 100%;
+  font-size: 12px;
+}
+
+.fa-snapchat {
+    color:white;
+}
+
+.fa-facebook-square {
+    color:white;
+}
+
+.fa-instagram {
+    color:white;
+}
+
+.fa-twitter
+{
+    color:white;
+}
+
+.fa-pinterest
+{
+    color:white;
+}
+
+form {
+    width: 130px;
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: pink;
+    text-align: center;
+    padding: 100px
+ }
+
+form {
+    width: 100%;
+}
+
+h2 {
+  color: yellow;
+}
